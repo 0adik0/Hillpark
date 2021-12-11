@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="hard_back_color">#F5F5F5</color>
+    <color name="colorPrimaryDark">#3D9C4D</color>
+    <color name="colorAccent">#0194F0</color>
+    <color name="titleTextColor">#003C81</color>
+    <color name="textColor">#011128</color>
+    <color name="menuButtonColor">#1F95BA</color>
+
+
+    <color name="plus_color">#3D9C4D</color>
+    <color name="minus_color">#F12424</color>
+    <color name="yellow_minus_color">#F8AE18</color>
+</resources>

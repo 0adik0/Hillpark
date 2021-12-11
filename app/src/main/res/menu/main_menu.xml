@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item   android:id="@+id/main_screen_button"
+        android:title="Главная"
+        android:icon="@drawable/ic_main"
+        />
+    <item android:id="@+id/basket_screen_button" android:title="Мои заказы"  android:icon="@drawable/ic_basket"/>
+    <item android:id="@+id/notify_screen_button" android:title="Уведомления" android:icon="@drawable/ic_notification"/>
+
+</menu>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    android:layout_gravity="start|left"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_mask" />
+
+        <TextView
+            android:id="@+id/nameNavField"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center|center_vertical"
+            android:text="Фамилия Имя"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/size16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_avatar" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/exitNavBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameNavField">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/myOrdersNavBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="@string/drawer_orders_label"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/size16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/historyNavBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="@string/drawer_history_label"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/size16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/myOrdersNavBtn" />
+
+                <TextView
+                    android:id="@+id/profileNavBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="@string/drawer_profile_label"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/size16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/historyNavBtn" />
+
+                <TextView
+                    android:id="@+id/informerNavBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="@string/drawer_weather_label"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/size16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/myCardsNavBtn" />
+
+                <TextView
+                    android:id="@+id/camerasNavBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="@string/drawer_cameras_label"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/size16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.919"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/informerNavBtn" />
+
+                <TextView
+                    android:id="@+id/actionsNavBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="@string/drawer_actions_label"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/size16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/camerasNavBtn" />
+
+                <TextView
+                    android:id="@+id/contactsNavBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="@string/drawer_contacts_label"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/size16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/actionsNavBtn" />
+
+                <TextView
+                    android:id="@+id/myCardsNavBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="@string/drawer_my_cards"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/size16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/profileNavBtn" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <ImageView
+            android:id="@+id/closeNavBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close" />
+
+        <TextView
+            android:id="@+id/exitNavBtn"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:paddingStart="36dp"
+            android:text="@string/drawer_exit_label"
+            android:clickable="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/size16"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.navigation.NavigationView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item   android:id="@+id/navigation_basket_button" android:title="Мои заказы"  />
+    <item android:id="@+id/navigation_history_button" android:title="История"  />
+    <item android:id="@+id/navigation_profile_button" android:title="Профиль" />
+    <item   android:id="@+id/navigation_weather_informer_button" android:title="Информер погоды" />
+    <item android:id="@+id/navigation_online_cameras_button" android:title="Онлайн камеры"  />
+    <item android:id="@+id/navigation_sale_button" android:title="АКЦИИ" />
+    <item android:id="@+id/navigation_contacts_button" android:title="Контакты" />
+
+</menu>

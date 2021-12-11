@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain> <!-- Debug port -->
+        <domain includeSubdomains="true">xamarin.com</domain>
+        <domain includeSubdomains="true">195.34.243.30</domain>
+        <domain includeSubdomains="true">ab1024.computerica.com</domain>
+    </domain-config>
+</network-security-config>

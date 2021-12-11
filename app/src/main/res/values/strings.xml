@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Hillpark</string>
+
+    <!-- common settings !-->
+    <dimen name="text_field_size">24sp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="menu_button_text_size">16sp</dimen>
+    <dimen name="choose_text_size">20sp</dimen>
+
+    <dimen name="size20">20sp</dimen>
+    <dimen name="size18">18sp</dimen>
+    <dimen name="size16">16sp</dimen>
+    <dimen name="size14">14sp</dimen>
+    <dimen name="size12">12sp</dimen>
+    <dimen name="size26">26sp</dimen>
+
+    <string name="ok">ок</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="btn_save">СОХРАНИТЬ</string>
+    <string name="btn_cancel">ОТМЕНА</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="dialog_cancel">ОТМЕНИТЬ</string>
+    <string name="dialog_yes">ДА</string>
+    <string name="dialog_no">НЕТ</string>
+
+
+    <!-- login fragment !-->
+    <string name="login_login_label">Ваш E-mail</string>
+    <string name="login_password_label">Ваш пароль</string>
+    <string name="login_forgot_password">Не помню</string>
+    <string name="login_go">ВОЙТИ</string>
+    <string name="login_label_no_acc">Нет аккаунта?</string>
+    <string name="login_register">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="login_err">Неверно указан логин или пароль</string>
+    
+        <!-- login forgot dialog !-->
+        <string name="forgot_dialog_reset_password">Восстановить пароль</string>
+        <string name="forgot_dialog_label">Электронная почта для восстановления пароля</string>
+
+        <!-- login exit dialog !-->
+        <string name="exit_dialog_title">Выход из приложения</string>
+        <string name="exit_dialog_text">Вы уверены, что хотите выйти?</string>
+
+    <!-- registration fragment !-->
+    <string name="register_title">Регистрация</string>
+    <string name="register_checkBox_agreement_1">Соглашение с политикой конфиденциальности</string>
+    <string name="register_checkBox_agreement_2">Соглашение с правилами курорта</string>
+    <string name="register_checkBox_agreement_3">Соглашение с обработкой данных</string>
+    <string name="register_error_fields">Не все обязательные поля заполнены, или не все соглашения приняты</string>
+    <string name="register_error_pass">Пароли не совподают</string>
+    <string name="register_success">Успешная регистрация</string>
+    <string name="register_error">Ошибка регистрации</string>
+
+        <!-- fileds !-->
+        <string name="register_field_code">Введите код регистрации *</string>
+        <string name="register_field_code_helper">* Восьмизначный код на чеке выданный при покупке карты. В случае потери кассового чека данный код можно получить у Администратора Проката, предъявив клубную карту.</string>
+        <string name="register_field_email">Электронная почта *</string>
+        <string name="register_field_phone">Телефон</string>
+        <string name="register_field_password">Пароль *</string>
+        <string name="register_field_repeat_password">Подтверждение пароля *</string>
+        <string name="register_field_name">Имя</string>
+        <string name="register_field_last_name">Фамилия</string>
+    
+    
+    <!-- main fragment !-->
+    <string name="main_add_to_card">ПОПОЛНИТЬ КАРТУ</string>
+    <string name="main_buy_services">КУПИТЬ УСЛУГУ</string>
+    <string name="main_rates">ТАРИФЫ</string>
+    
+    <!-- nav drawer !-->
+    <string name="drawer_orders_label">Мои заказы</string>
+    <string name="drawer_history_label">История</string>
+    <string name="drawer_profile_label">Профиль</string>
+    <string name="drawer_weather_label">Информер погоды</string>
+    <string name="drawer_cameras_label">Онлайн камеры</string>
+    <string name="drawer_actions_label">АКЦИИ</string>
+    <string name="drawer_contacts_label">Контакты</string>
+    <string name="drawer_my_cards">Мои карты</string>
+    <string name="drawer_exit_label">Выход</string>
+    
+    <!-- addMoneyToCard Fragment !-->
+    <string name="money_to_card_bar_title">Пополнение карты</string>
+    <string name="money_to_card_card_title">Клубная карта HillPark</string>
+    <string name="money_to_card_choose_card_label">Выберите карту</string>
+    <string name="money_to_card_sum_label">Введите сумму</string>
+    <string name="money_to_card_rub_label">руб</string>
+    <string name="money_to_card_pay_label">ОПЛАТИТЬ</string>
+
+    <!-- BuyService Fragment !-->
+    <string name="buy_service_bar_title">Приобретение услуги</string>
+    <string name="buy_service_choose_service">Выберите услугу</string>
+    <string name="buy_service_graph_1">Вечерний (с 16:00)</string>
+    <string name="buy_service_graph_2">Дневной (до 16:00)</string>
+    <string name="buy_service_graph_3">Суточный</string>
+    <string name="buy_service_graph_4">Часовый (1 час)</string>
+    <string name="buy_service_button_label">СПИСАТЬ С БАЛАНСА КАРТЫ</string>
+    <string name="buy_service_error">Не выбрана карта или услуга</string>
+    <string name="buy_service_success_pay">Услуга успешно куплена</string>
+    <string name="buy_service_error_pay">Недостаточно средств на карте</string>
+
+    <!-- Notifications Fragment !-->
+    <string name="notifications_new_title">Новые</string>
+    <string name="notifications_read_title">Прочитанные</string>
+    <string name="notifications_app_bar_title">Уведомления</string>
+
+    <!-- History Fragment !-->
+    <string name="history_app_bar_title">История операций</string>
+    <string name="history_choose_card_title">Выберите карту</string>
+
+    <!-- Info Fragment !-->
+    <string name="info_app_bar_title">Информация</string>
+    <string name="info_menu_profile">ПРОФИЛЬ</string>
+    <string name="info_menu_my_cards">МОИ КАРТЫ</string>
+    <string name="info_menu_contacts">ТАРИФЫ</string>
+    <string name="info_menu_tarifs">КОНТАКТЫ</string>
+
+    <!-- Profile Fragment !-->
+    <string name="profile_app_bar_title">Профиль</string>
+    <string name="profile_name">Имя</string>
+    <string name="profile_father_name">Отчество</string>
+    <string name="profile_middle_name">Фамилия</string>
+    <string name="profile_birthday">Дата рождения</string>
+    <string name="profile_gender">Пол:</string>
+    <string name="profile_gender_male">Мужской</string>
+    <string name="profile_gender_female">Женский</string>
+    <string name="profile_phone">Телефон</string>
+    <string name="profile_email">Введите email</string>
+    <string name="profile_email_helper">*Будьте внимательны! При изменении адреса электронной почты меняется логин для входа в мобильное приложение.</string>
+    <string name="profile_mess_update_success">Профиль успеншно обновлен</string>
+    <string name="profile_mess_update_fail">Ошибка при обновлении профиля</string>
+
+    <!-- Contacts Fragment !-->
+    <string name="contacts_app_bar_title">Контакты</string>
+
+    <!-- MyCards Fragment !-->
+    <string name="my_cards_app_bar_title">Мои карты</string>
+    <string name="my_cards_add_card">ДОБАВИТЬ КАРТУ</string>
+    <string name="my_cards_add_success">Карта успешно добавлена</string>
+    <string name="my_cards_add_error">Ошибка при добавлении карты</string>
+
+    <!-- CardEdit Fragment !-->
+    <string name="card_edit_field_hint">Имя карты</string>
+    <string name="card_edit_id">Идентификатор</string>
+    <string name="card_edit_category">Категория</string>
+    <string name="card_edit_type">Тип</string>
+    <string name="card_edit_tariff">Тариф</string>
+    <string name="card_edit_work_from">Работает с</string>
+    <string name="card_edit_work_to">По</string>
+    <string name="card_edit_balance">Баланс карты</string>
+    <string name="card_edit_get_error">Ошибка при загрузке информации о карте</string>
+    <string name="card_edit_change_name_success">Имя карты успешно изменено</string>
+    <string name="card_edit_change_name_error">Ошибка при изменении имени карты</string>
+
+    <!-- MyOrders Fragment !-->
+    <string name="my_orders_app_bar_title">Мои заказы</string>
+
+    <!-- Tariffs Fragment !-->
+    <string name="tariffs_app_bar_title">Тарифы</string>
+    <string name="tariffs_upper_label">Подьёмник</string>
+    <string name="tariffs_rent_mount_label_1">Прокат:</string>
+    <string name="tariffs_rent_mount_label_2">Горные лыжи</string>
+    <string name="tariffs_rent_sport_label_1">Прокат:</string>
+    <string name="tariffs_rent_sport_label_2">Беговые лыжи</string>
+    <string name="tariffs_training_label_1">Тренажер:</string>
+    <string name="tariffs_training_label_2">SkyTechSport</string>
+    <string name="tariffs_instructor_label">Инструктор</string>
+    <string name="tariffs_tubing_label">Тюбинг</string>
+    <string name="tariffs_buy_service">КУПИТЬ УСЛУГУ</string>
+
+
+</resources>
